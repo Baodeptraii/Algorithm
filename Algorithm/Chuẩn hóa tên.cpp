@@ -1,6 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+string chuanHoa(string s){
+	string token;
+	string res="";
+	stringstream ss(s);
+	while(ss >> token){
+		res+=toupper(token[0]);
+		for(int i=1;i<token.length();i++){
+			res+=tolower(token[i])
+		}
+		res+=" ";
+	}
+	// sẽ thừa 1 dấu " " ở cuối, có thể dùng erase để xóa 
+	return res;
+}
+
 void strupr(string &s) {
 	for (int i = 0; i < s.length(); i++) {
 		s[i] = toupper(s[i]);
