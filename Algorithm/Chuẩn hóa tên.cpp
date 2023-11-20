@@ -8,7 +8,7 @@ string chuanHoa(string s){
 	while(ss >> token){
 		res+=toupper(token[0]);
 		for(int i=1;i<token.length();i++){
-			res+=tolower(token[i])
+			res+=tolower(token[i]);
 		}
 		res+=" ";
 	}
