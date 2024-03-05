@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// Code by ĐHN
 int n, x[100];
 vector<string>v;
 
@@ -43,3 +43,24 @@ int main() {
 	for(auto x:se)
 		cout<<x<<endl;
 }
+/*
+Input: 
+4
+ABA
+BBA
+AAA
+AAA
+
+Output:
+AAA
+AAAAAA
+ABA
+ABAAAA
+ABAAAAAAA
+ABABBA
+ABABBAAAA
+ABABBAAAAAAA
+BBA
+BBAAAA
+BBAAAAAAA
+*/
